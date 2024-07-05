@@ -109,14 +109,14 @@ n++
 
 n = 10 
 let fatorial = 1
-for(i = 1, i <=n; i++){
+for(i = 1; i <=n; i++){
      fatorial *= i
 }
 
 
 //Exc. 17 
 
-for( i=1, i <= 10, i++){
+for( i=1; i <= 10; i++){
      if(i % 2 == 0) {
           console.log(i,"Ele é par")
      }else{ 
